@@ -2,43 +2,40 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color" [containerInside]="false">
 
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Welcome</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Chris Meyer Site</a></mdb-navbar-brand>
 
   <!-- Collapsible content -->
   <links>
 
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+      <li [routerLinkActive]="['active']" class="nav-item">
+        <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>About</a>
+      <li [routerLinkActive]="['active']" class="nav-item">
+        <a routerLink="/about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
       </li>
 
       <!-- Dropdown -->
-      <li class="nav-item dropdown" dropdown>
+      <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Work Experince<span class="caret"></span></a>
+          Work History<span class="caret"></span></a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
-          <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">General Atomics</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">TJC and Associates</a>
+          <!-- <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a> -->
         </div>
       </li>
 
       <!-- Dropdown -->
-      <li class="nav-item dropdown" dropdown>
+      <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
           Past Projects<span class="caret"></span></a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
-          <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">This Site!</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">PointMap</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">GiftMe</a>
         </div>
       </li>
 
@@ -47,17 +44,17 @@
 
     <ul class="navbar-nav ml-auto nav-flex-icons">
       <li class="nav-item">
-        <a class="nav-link">
+        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/christophermeyer101/">
           <mdb-icon fab icon="linkedin"></mdb-icon>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">
+        <a class="nav-link" target="_blank" href="https://github.com/ChrisMeyer7088">
           <mdb-icon fab icon="github"></mdb-icon>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">
+        <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010272094919">
           <mdb-icon fab icon="facebook"></mdb-icon>
         </a>
     </ul>

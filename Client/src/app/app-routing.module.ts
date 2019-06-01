@@ -8,12 +8,10 @@ import { WorkExperincePageComponent } from './work-experince-page/work-experince
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
-  {path: 'home', children: [
-    {path: '', component: HomePageComponent},
-    {path: 'about', component: AboutPageComponent},
-    {path: 'projects', component: ProjectsPageComponent},
-    {path: 'experince', component: WorkExperincePageComponent}
-  ]},
+  {path: 'home', component: HomePageComponent},
+  {path: 'about', component: AboutPageComponent},
+  {path: 'projects', component: ProjectsPageComponent},
+  {path: 'experince', component: WorkExperincePageComponent},
   {path: '**', redirectTo: 'home'}
 ];
 
