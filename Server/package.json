@@ -1,0 +1,23 @@
+{
+  "name": "chrismeyersite",
+  "version": "1.0.0",
+  "description": "A site showcasing the experince of Chris Meyer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisMeyer7088/ChrisMeyerSite.git"
+  },
+  "author": "Chris Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisMeyer7088/ChrisMeyerSite/issues"
+  },
+  "homepage": "https://github.com/ChrisMeyer7088/ChrisMeyerSite#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
