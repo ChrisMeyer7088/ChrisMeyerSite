@@ -2,8 +2,25 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 50px;
   text-align: center;
   background-color: #103c63;
   color: #fff;
+}
+
+.footer-p{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#a-contact, #a-contact:visited, #a-contact:active{
+  color: inherit;
+}
+
+#a-contact:active{
+  color: #fff;
+}
+
+#a-contact:hover{
+  color: rgba(255, 255, 255, 0.76);
 }

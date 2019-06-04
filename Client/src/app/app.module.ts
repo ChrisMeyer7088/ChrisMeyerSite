@@ -10,6 +10,7 @@ import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
 import { WorkExperincePageComponent } from './work-experince-page/work-experince-page.component';
 import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { ContactFormComponentComponent } from './contact-form-component/contact-form-component.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
     ProjectsPageComponent,
     NavbarComponentComponent,
     WorkExperincePageComponent,
-    FooterComponentComponent
+    FooterComponentComponent,
+    ContactFormComponentComponent
   ],
   imports: [
     BrowserModule,
