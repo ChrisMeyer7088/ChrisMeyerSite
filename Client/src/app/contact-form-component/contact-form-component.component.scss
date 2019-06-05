@@ -1,0 +1,41 @@
+.container-contact{
+  text-align: center;
+  background-color: #3f729b;
+  color: #fff;
+  width: 80%;
+  padding-top: 8px;
+  margin: auto;
+}
+
+#input-ContactSubject{
+  margin: 8px;
+  margin-bottom: 24px;
+  width: 30%;
+  border-radius: 16px;
+}
+
+#input-ContactBody{
+  margin: auto;
+  margin-bottom: 16px;
+  width: 90%;
+  border-radius: 16px;
+}
+
+#button-Contact {
+  background-color: white;
+  color: #3f729b;
+  padding: 6px 40px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #3f729b;
+  border-radius: 16px;
+}
+
+#button-Contact:hover {
+  background-color: #103c63;
+  color: white;
+}
