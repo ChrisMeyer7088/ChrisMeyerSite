@@ -1,65 +1,67 @@
-<!--Navbar-->
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color" [containerInside]="false">
+<div id="container">
+  <!--Navbar-->
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark unique-color" [containerInside]="false">
 
-  <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">Chris Meyer Site</a></mdb-navbar-brand>
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">CM Site</a></mdb-navbar-brand>
 
-  <!-- Collapsible content -->
-  <links>
+    <!-- Collapsible content -->
+    <links>
 
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li [routerLinkActive]="['active']" class="nav-item">
-        <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li [routerLinkActive]="['active']" class="nav-item">
-        <a routerLink="/about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
-      </li>
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a routerLink="/about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
+        </li>
 
-      <!-- Dropdown -->
-      <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
-        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Work History<span class="caret"></span></a>
-        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">General Atomics</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">TJC and Associates</a>
-          <!-- <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a> -->
-        </div>
-      </li>
+        <!-- Dropdown -->
+        <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            Work History<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">General Atomics</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">TJC and Associates</a>
+            <!-- <div class="divider dropdown-divider"></div>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a> -->
+          </div>
+        </li>
 
-      <!-- Dropdown -->
-      <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
-        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          Past Projects<span class="caret"></span></a>
-        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">This Site!</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">PointMap</a>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">GiftMe</a>
-        </div>
-      </li>
+        <!-- Dropdown -->
+        <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            Past Projects<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">This Site!</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">PointMap</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">GiftMe</a>
+          </div>
+        </li>
 
-    </ul>
-    <!-- Links -->
+      </ul>
+      <!-- Links -->
 
-    <ul class="navbar-nav ml-auto nav-flex-icons">
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/christophermeyer101/">
-          <mdb-icon fab icon="linkedin"></mdb-icon>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://github.com/ChrisMeyer7088">
-          <mdb-icon fab icon="github"></mdb-icon>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010272094919">
-          <mdb-icon fab icon="facebook"></mdb-icon>
-        </a>
-    </ul>
-  </links>
-  <!-- Collapsible content -->
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/christophermeyer101/">
+            <mdb-icon fab icon="linkedin"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://github.com/ChrisMeyer7088">
+            <mdb-icon fab icon="github"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010272094919">
+            <mdb-icon fab icon="facebook"></mdb-icon>
+          </a>
+      </ul>
+    </links>
+    <!-- Collapsible content -->
 
-</mdb-navbar>
-<!--/.Navbar-->
+  </mdb-navbar>
+  <!--/.Navbar-->
+</div>

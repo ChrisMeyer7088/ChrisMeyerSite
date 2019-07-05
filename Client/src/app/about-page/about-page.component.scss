@@ -1,0 +1,67 @@
+$default-padding: 16px;
+
+#container-page{
+  min-height: 100%;
+  width: 85%;
+  background-color: bisque;
+  margin: auto;
+  margin-top: -56px;
+  padding-top: 60px
+}
+
+#container-main{
+  overflow: auto;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#container-AboutHead{
+  align-content: flex-end;
+}
+
+
+#img-profile{
+  width: 300px;
+  height: 300px;
+  padding: $default-padding;
+  float: left;
+}
+
+#img-pdf{
+  width: 30px;
+  height: 30px;
+  margin-left: 45px;
+}
+
+.h1-section{
+  text-align: center;
+}
+
+.p-section{
+  font-size: 20px;
+  padding-left: $default-padding;
+  text-indent: 32px;
+}
+
+.h2-section{
+  display: block;
+  padding-left: $default-padding;
+  padding-top: $default-padding;
+}
+
+.document-link{
+  vertical-align: bottom;
+  padding-left: 8px;
+  margin-bottom: 0;
+  font-size: 20px;
+
+}
+
+.document-container{
+  display: flex;
+  align-items: center;
+}
+
+#container-AfterImage{
+  clear: left;
+}
