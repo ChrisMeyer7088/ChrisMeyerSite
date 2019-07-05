@@ -1,0 +1,25 @@
+$default-padding: 16px;
+
+#container-page{
+  min-height: 100%;
+  width: 85%;
+  background-color: bisque;
+  margin: auto;
+  margin-top: -64px;
+  padding-top: 70px
+}
+
+#container-main{
+  overflow: auto;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#h1-title{
+  text-align: center;
+  padding-top: 2%;
+}
+
+#header-GA{
+  padding-left: $default-padding;
+}

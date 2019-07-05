@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'home', component: HomePageComponent},
   {path: 'about', component: AboutPageComponent},
   {path: 'projects', component: ProjectsPageComponent},
-  {path: 'experince', component: WorkExperincePageComponent},
+  {path: 'experience', component: WorkExperincePageComponent},
   {path: '**', redirectTo: 'home'}
 ];
 
