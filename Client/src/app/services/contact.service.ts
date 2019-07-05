@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core'
 import { HttpClient, HttpErrorResponse } from '@angular/common/http'
-import { Contact, Reply } from '../contact-form-component/contact-form-component.component';
+import { Contact, Reply } from '../components/contact-form-component/contact-form-component.component';
 import { map, catchError } from "rxjs/operators";
 import { Observable, throwError } from 'rxjs';
 

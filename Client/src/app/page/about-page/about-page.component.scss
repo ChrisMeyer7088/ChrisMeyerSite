@@ -1,4 +1,5 @@
 $default-padding: 16px;
+$default-font-size: 20px;
 
 #container-page{
   min-height: 100%;
@@ -19,6 +20,15 @@ $default-padding: 16px;
   align-content: flex-end;
 }
 
+#table-skills{
+  width: 100%;
+  text-align: center;
+}
+
+#table-skills th{
+  font-size: $default-font-size;
+  padding-bottom: $default-padding;
+}
 
 #img-profile{
   width: 300px;
@@ -38,7 +48,7 @@ $default-padding: 16px;
 }
 
 .p-section{
-  font-size: 20px;
+  font-size: $default-font-size;
   padding-left: $default-padding;
   text-indent: 32px;
 }
@@ -53,7 +63,7 @@ $default-padding: 16px;
   vertical-align: bottom;
   padding-left: 8px;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: $default-font-size;
 
 }
 
@@ -64,4 +74,14 @@ $default-padding: 16px;
 
 #container-AfterImage{
   clear: left;
+}
+
+#ul-logo li{
+  display: inline;
+  margin-left: 45px;
+}
+
+#img-logo{
+  width: 75px;
+  height: 75px;
 }
