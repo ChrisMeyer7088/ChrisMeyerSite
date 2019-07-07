@@ -1,27 +1,6 @@
 $default-padding: 16px;
 $default-font-size: 20px;
 
-#container-page{
-  min-height: 100%;
-  width: 85%;
-  background-color: bisque;
-  margin: auto;
-  margin-top: -56px;
-  padding-top: 70px
-}
-
-#container-main{
-  overflow: auto;
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: $default-padding;
-}
-
-#h1-title{
-  text-align: center;
-  padding-top: 2%;
-}
-
 #TJCAA, #GA{
   margin-bottom: 3%;
 }
@@ -68,4 +47,13 @@ $default-font-size: 20px;
 .ul-tasks li{
   padding-left: $default-padding;
   padding-top: 8px;
+}
+
+.p-caption{
+  float: right;
+  position: inherit;
+  font-size: $default-font-size;
+  text-align: center;
+  padding-left: 48px;
+  width: 50%;
 }

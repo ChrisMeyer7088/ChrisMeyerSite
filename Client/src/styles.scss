@@ -7,3 +7,22 @@ html, body{
   margin: 0;
   padding: 0;
 }
+
+.container-page{
+  min-height: 100%;
+  margin: auto;
+  margin-top: -56px;
+  width: 85%;
+  background-color: bisque;
+  padding-top:50px;
+}
+
+.container-main{
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.h1-title{
+  text-align: center;
+  padding-top: 2%;
+}

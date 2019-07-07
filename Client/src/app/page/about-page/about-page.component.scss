@@ -1,21 +1,6 @@
 $default-padding: 16px;
 $default-font-size: 20px;
 
-#container-page{
-  min-height: 100%;
-  width: 85%;
-  background-color: bisque;
-  margin: auto;
-  margin-top: -56px;
-  padding-top: 60px
-}
-
-#container-main{
-  overflow: auto;
-  margin: auto;
-  padding-bottom: 50px;
-}
-
 #container-AboutHead{
   align-content: flex-end;
 }
@@ -41,11 +26,6 @@ $default-font-size: 20px;
   width: 30px;
   height: 30px;
   margin-left: 45px;
-}
-
-.h1-section{
-  text-align: center;
-  padding-top: 2%;
 }
 
 .p-section{
