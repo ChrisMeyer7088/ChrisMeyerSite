@@ -1,0 +1,25 @@
+$default-padding: 18px;
+$default-font-size: 20px;
+
+.container-project{
+  padding-left: $default-padding;
+
+}
+
+.ul-functionality{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  list-style: inside;
+}
+
+.ul-functionality li{
+  padding-left: $default-padding;
+  padding-top: 8px;
+}
+
+.p-section{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  padding-right: 48px;
+  text-indent: 32px;
+}

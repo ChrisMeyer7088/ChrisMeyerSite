@@ -32,6 +32,13 @@ $default-font-size: 20px;
   margin-left: 5%;
 }
 
+.img-workTJC{
+  width: 500px;
+  height: 350px;
+  float:right;
+  margin-left: 5%;
+}
+
 .container-desc{
   display: block;
   margin-top: 32px;
@@ -56,4 +63,13 @@ $default-font-size: 20px;
   text-align: center;
   padding-left: 48px;
   width: 50%;
+}
+
+.p-captionTJC{
+  float: right;
+  position: inherit;
+  font-size: $default-font-size;
+  text-align: center;
+  padding-left: 48px;
+  width: 40%;
 }
