@@ -1,3 +1,54 @@
-<p>
-  giftme-page works!
-</p>
+<div class="container-page">
+  <div class="container-main">
+    <div class="animated fadeIn mb-4">
+      <h1 class="h1-title">GiftMe</h1>
+      <div class="container-content">
+        <h2>Purpose</h2>
+        <p class="p-section">
+          GiftMe is a gift exchange web application. In GiftMe individuals will be able to form a public or private
+          exchange group and preform an online white elephant gift exchange. <strong>This project is still in the early stages
+          of development with an expected release for late September.</strong>
+        </p>
+        <h2 class="header-section">Frameworks</h2>
+        <ul class="ul-frameworks">
+          The creation of this project utilizes the MEAN stack.
+          <li>
+            The backend of this projcet is being written in Node-Express with MongoDB as the database and Mongoose as the ORM.
+          </li>
+          <li>
+            The Fronend of this application is being written in Angular.
+          </li>
+        </ul>
+        <h2>Current Features</h2>
+        <div class="container-section">
+          <h3 class="header-section">Login</h3>
+          <p class="p-section">
+            <img class="img-pic" src="../../../../assets/static/images/projectImages/giftme/loginGiftMe.png">
+            On a login attempt, the client first provides input validation before formatting and serializing the request
+            to the backend. Using proper password handling techniques, the backend handles the incoming request from the
+            Client and verifies the sent credentials. In a successful login a session token is generated and stored in
+            local storage to the client and the client is sent to their protected home page.
+          </p>
+        </div>
+        <div class="container-section">
+          <h3>Registration</h3>
+          <p class="p-section">
+            <img class="img-pic" src="../../../../assets/static/images/projectImages/giftme/registrationGiftme.png">
+            On a registration attempt, the client first provides input validation before formatting and serializing the
+            request to the backend. On receiving the registration attempt the UserName must be unique and is checked against
+            database records. If successful the password is hashed and salted before being stored as a record in the database.
+            The client is then redirected to login.
+          </p>
+        </div>
+        <div class="container-end">
+          <h2>
+          <a target="_blank" href="https://github.com/ChrisMeyer7088/GiftMe">
+          Repository
+          <mdb-icon fab icon="github"></mdb-icon>
+          </a>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+$default-padding: 18px;
+$default-font-size: 20px;
+
+#container-content{
+  padding-left: $default-padding;
+}
+
+.p-section{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  padding-right: 48px;
+  text-indent: 32px;
+}
+
+.container-section, .container-end{
+  margin-top: 40px;
+  clear: both;
+}
+
+.container-end{
+  padding-bottom: 3%;
+}
+
+.img-gif{
+  width: 600px;
+  height: 350px;
+  float:right;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.ul-frameworks{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  list-style: inside;
+}
+
+.ul-frameworks li{
+  padding-left: $default-padding;
+  padding-top: 8px;
+}
+
+.p-github{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+}

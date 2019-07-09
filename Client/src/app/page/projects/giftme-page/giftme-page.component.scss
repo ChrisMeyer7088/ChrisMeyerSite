@@ -1,0 +1,48 @@
+$default-padding: 18px;
+$default-font-size: 20px;
+
+.container-content{
+  padding-left: $default-padding;
+}
+
+.p-section{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  padding-right: 48px;
+  text-indent: 32px;
+}
+
+.ul-frameworks{
+  font-size: $default-font-size;
+  padding-left: $default-padding;
+  padding-bottom: $default-padding;
+  list-style: inside;
+}
+
+.ul-frameworks li{
+  padding-left: $default-padding;
+  padding-top: 8px;
+}
+
+.container-section{
+  padding-left: $default-padding;
+  clear: both;
+}
+
+.img-pic{
+  width: 600px;
+  height: 350px;
+  float:right;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.container-end{
+  padding-bottom: 3%;
+  clear: both;
+  font-size: $default-font-size;
+}
+
+.header-section{
+  padding-top: $default-padding;
+}
