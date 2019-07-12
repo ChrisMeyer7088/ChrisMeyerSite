@@ -18,7 +18,7 @@ const routes: Routes = [
     {path: '', component: ProjectHomePageComponent},
     {path: 'pointmap', component: PointmapPageComponent},
     {path: 'giftme', component: GiftmePageComponent},
-    {path: 'cmSite', component: CmSitePageComponent}
+    {path: 'cmsite', component: CmSitePageComponent}
   ]},
   {path: '**', redirectTo: 'home'}
 ];

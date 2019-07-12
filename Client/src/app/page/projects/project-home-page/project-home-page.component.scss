@@ -1,0 +1,48 @@
+$default-padding: 18px;
+$default-font-size: 20px;
+
+.p-section{
+  font-size: $default-font-size;
+}
+
+.container-projects{
+  margin-top: 3%;
+  padding: $default-padding;
+}
+
+#table-pages{
+  width: 100%;
+}
+#table-pages td{
+  width: 50%;
+}
+
+.div-page{
+  margin-bottom: 24px;
+  padding: $default-padding;
+  display: flex;
+  align-items: center;
+}
+
+.p-github{
+  padding-left: 32px;
+  font-size: 32px;
+}
+
+.p-title{
+  font-size: 28px;
+  width: 30%;
+}
+
+.img-logo{
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.p-desc{
+  font-size: $default-font-size;
+  padding-right: 15px;
+  padding-left: 15%;
+}
