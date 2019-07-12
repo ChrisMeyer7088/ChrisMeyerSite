@@ -21,9 +21,15 @@ $default-font-size: 20px;
   padding-bottom: 3%;
 }
 
+.img-roadmap{
+  width: 100%;
+  height: auto;
+  padding-right: $default-padding;
+}
+
 .img-gif{
-  width: 600px;
-  height: 350px;
+  width: 40%;
+  height: auto;
   float:right;
   margin-left: 5%;
   margin-bottom: 3%;

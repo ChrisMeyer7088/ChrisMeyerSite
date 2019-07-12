@@ -25,13 +25,12 @@ $default-font-size: 20px;
 #img-pdf{
   width: 30px;
   height: 30px;
-  margin-left: 45px;
+  margin-right: 8px;
 }
 
 .p-section{
   font-size: $default-font-size;
   padding-left: $default-padding;
-  text-indent: 32px;
 }
 
 .h2-section{
@@ -42,10 +41,12 @@ $default-font-size: 20px;
 
 .document-link{
   vertical-align: bottom;
-  padding-left: 8px;
-  margin-bottom: 0;
   font-size: $default-font-size;
+  color: #212529;
+}
 
+.document-link:hover{
+  color: #007bff;
 }
 
 .document-container{
@@ -65,4 +66,5 @@ $default-font-size: 20px;
 #img-logo{
   width: 75px;
   height: 75px;
+  box-shadow: 10px 10px 5px grey;
 }

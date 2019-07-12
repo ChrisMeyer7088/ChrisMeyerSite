@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { FlashMessagesModule } from 'angular2-flash-messages';
 
 import { ContactService } from './services/contact.service';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './routes/app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { AboutPageComponent } from './page/about-page/about-page.component';
@@ -17,6 +17,7 @@ import { ContactFormComponentComponent } from './components/contact-form-compone
 import { GiftmePageComponent } from './page/projects/giftme-page/giftme-page.component';
 import { PointmapPageComponent } from './page/projects/pointmap-page/pointmap-page.component';
 import { CmSitePageComponent } from './page/projects/cm-site-page/cm-site-page.component';
+import { ProjectHomePageComponent } from './page/projects/project-home-page/project-home-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CmSitePageComponent } from './page/projects/cm-site-page/cm-site-page.c
     ContactFormComponentComponent,
     GiftmePageComponent,
     PointmapPageComponent,
-    CmSitePageComponent
+    CmSitePageComponent,
+    ProjectHomePageComponent
   ],
   imports: [
     BrowserModule,

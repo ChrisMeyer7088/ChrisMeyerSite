@@ -21,34 +21,38 @@ $default-font-size: 20px;
 .p-section{
   font-size: $default-font-size;
   padding-left: $default-padding;
-  padding-right: 48px;
-  text-indent: 32px;
+  padding-right: 3%;
+  text-indent: 2.5%;
+  margin-bottom: 0;
 }
 
 .img-work{
-  width: 600px;
-  height: 350px;
+  width: 40%;
+  height: auto;
   float:right;
   margin-left: 5%;
 }
 
 .img-workTJC{
-  width: 500px;
-  height: 350px;
+  width: 35%;
+  height: auto;
   float:right;
   margin-left: 5%;
 }
 
 .container-desc{
   display: block;
-  margin-top: 32px;
+  margin-top: 2%;
   overflow: auto;
+  clear: both;
 }
 
 .ul-tasks{
   font-size: $default-font-size;
   padding-left: $default-padding;
   list-style: inside;
+  margin-bottom: 0;
+
 }
 
 .ul-tasks li{
@@ -61,8 +65,9 @@ $default-font-size: 20px;
   position: inherit;
   font-size: $default-font-size;
   text-align: center;
-  padding-left: 48px;
+  padding-left: 3%;
   width: 50%;
+  clear: both;
 }
 
 .p-captionTJC{
@@ -70,6 +75,7 @@ $default-font-size: 20px;
   position: inherit;
   font-size: $default-font-size;
   text-align: center;
-  padding-left: 48px;
+  padding-left: 3%;
   width: 40%;
+  clear: both;
 }

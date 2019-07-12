@@ -16,20 +16,14 @@
         <li [routerLinkActive]="['active']" class="nav-item">
           <a routerLink="/about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
         </li>
-
-        <!-- Dropdown -->
-        <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
-          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-            Work History<span class="caret"></span></a>
-          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-            <a routerLink="/experience" fragment="GA" class="dropdown-item waves-light" mdbWavesEffect>General Atomics</a>
-            <a routerLink="/experience" fragment="TJCAA" class="dropdown-item waves-light" mdbWavesEffect href="#">TJC and Associates</a>
-            <!-- <div class="divider dropdown-divider"></div>
-            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a> -->
-          </div>
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a routerLink="/experience" class="nav-link waves-light" mdbWavesEffect>Work History</a>
+        </li>
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a routerLink="/projects" class="nav-link waves-light" mdbWavesEffect>Projects</a>
         </li>
 
-        <!-- Dropdown -->
+        <!-- Dropdown
         <li [routerLinkActive]="['active']" class="nav-item dropdown" dropdown>
           <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
             Past Projects<span class="caret"></span></a>
@@ -38,10 +32,10 @@
             <a routerLink="/projects/pointmap" class="dropdown-item waves-light" mdbWavesEffect href="#">PointMap</a>
             <a routerLink="/projects/giftme" class="dropdown-item waves-light" mdbWavesEffect href="#">GiftMe</a>
           </div>
-        </li>
+        </li> -->
 
       </ul>
-      <!-- Links -->
+      <!-- Icon Links -->
 
       <ul class="navbar-nav ml-auto nav-flex-icons">
         <li class="nav-item">
@@ -54,14 +48,8 @@
             <mdb-icon fab icon="github"></mdb-icon>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=100010272094919">
-            <mdb-icon fab icon="facebook"></mdb-icon>
-          </a>
       </ul>
     </links>
-    <!-- Collapsible content -->
 
   </mdb-navbar>
-  <!--/.Navbar-->
 </div>

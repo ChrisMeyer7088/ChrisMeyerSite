@@ -9,7 +9,7 @@ import { Observable, throwError } from 'rxjs';
 export class ContactService{
   constructor(private http: HttpClient){ }
 
-  private readonly urlString = "http://localhost:3000/api/contact"
+  private readonly urlString = "https://cmeyer.me/api/"
 
   postContact(contactInfo: Contact){
     return this.http.post<Reply>(this.urlString, contactInfo)
