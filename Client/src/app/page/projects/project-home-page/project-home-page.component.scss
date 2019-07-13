@@ -38,6 +38,15 @@ $default-font-size: 20px;
   width: 80px;
   height: 80px;
   margin-right: 24px;
+  background-color: white;
+}
+
+.shadow-anim{
+  box-shadow: 3px 3px 1px grey;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-anim:hover{
   box-shadow: 10px 10px 5px grey;
 }
 
