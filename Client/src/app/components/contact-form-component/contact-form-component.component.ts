@@ -15,6 +15,7 @@ export class ContactFormComponentComponent implements OnInit {
   };
   subject: String = "";
   body: String = "";
+  previousMessageTime: Date = null;
 
   constructor(
     private contactService: ContactService,
@@ -25,6 +26,12 @@ export class ContactFormComponentComponent implements OnInit {
   }
 
   sendRequest(){
+    let currentMessageTime = new Date();
+    if(this.previousMessageTime != null && this.previousMessageTime.getTime() - currentMessageTime.getTime() < 60000){
+      this.flashMessageService.show('Message may only be sent once every miniute to avoid spam.', { cssClass: 'alert-warning', timeout: 5000 });
+      return;
+    }
+
     if(this.subject == "" || this.body == ""){
       this.flashMessageService.show('All fields are required to send a message.', { cssClass: 'alert-danger', timeout: 5000 });
       return;
@@ -33,8 +40,10 @@ export class ContactFormComponentComponent implements OnInit {
     this.contact.body = this.body;
     this.contactService.postContact(this.contact)
     .subscribe((data: Reply) => {
-      if(data.success)
+      if(data.success){
+        this.previousMessageTime = new Date();
         this.flashMessageService.show('Message sent!', { cssClass: 'alert-success', timeout: 2000 });
+      }
       else
         this.flashMessageService.show('Inbox not available, please try again later!', { cssClass: 'alert-danger', timeout: 5000 });
     }, (error) => {
