@@ -2,10 +2,9 @@ $default-padding: 16px;
 $default-font-size: 20px;
 
 #TJCAA, #GA{
-  margin-bottom: 3%;
-}
-
-#header-GA{
+  margin-bottom: 32px;
+  margin-top: 32px;
+  padding-right: $default-padding;
   padding-left: $default-padding;
 }
 
@@ -26,24 +25,32 @@ $default-font-size: 20px;
 }
 
 .img-work{
-  width: 40%;
+  width: auto;
   height: auto;
+  max-width: 40%;
+  max-height: 30%;
+  box-shadow: 10px 10px 5px grey;
   float:right;
   margin-left: 5%;
+  margin-bottom: $default-padding;
 }
 
 .img-workTJC{
-  width: 35%;
+  width: auto;
   height: auto;
+  max-width: 40%;
+  max-height: 30%;
   float:right;
   margin-left: 5%;
+  margin-bottom: $default-padding;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .container-desc{
   display: block;
-  margin-top: 2%;
   overflow: auto;
   clear: both;
+  margin-top: 2%;
 }
 
 .ul-tasks{
@@ -51,30 +58,10 @@ $default-font-size: 20px;
   padding-left: $default-padding;
   list-style: inside;
   margin-bottom: 0;
-
+  margin-top: 1%;
 }
 
 .ul-tasks li{
   padding-left: $default-padding;
   padding-top: 8px;
-}
-
-.p-caption{
-  float: right;
-  position: inherit;
-  font-size: $default-font-size;
-  text-align: center;
-  padding-left: 3%;
-  width: 50%;
-  clear: both;
-}
-
-.p-captionTJC{
-  float: right;
-  position: inherit;
-  font-size: $default-font-size;
-  text-align: center;
-  padding-left: 3%;
-  width: 40%;
-  clear: both;
 }

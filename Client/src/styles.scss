@@ -13,7 +13,8 @@ html, body{
   min-height: 100%;
   margin: auto;
   margin-top: -56px;
-  width: 85%;
+  width: auto;
+  max-width: 85%;
   background-color: rgb(218, 218, 218);
   padding-top:50px;
 }

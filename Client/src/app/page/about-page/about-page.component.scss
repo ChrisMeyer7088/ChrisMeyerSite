@@ -3,6 +3,9 @@ $default-font-size: 20px;
 
 #container-AboutHead{
   align-content: flex-end;
+  width: auto;
+  height: auto;
+  margin-top: 2%;
 }
 
 #table-skills{
@@ -16,10 +19,13 @@ $default-font-size: 20px;
 }
 
 #img-profile{
-  width: 250px;
-  height: 250px;
-  padding: $default-padding;
+  width: auto;
+  height: auto;
+  max-height: 250px;
+  max-width: 250px;
+  margin: $default-padding;
   float: left;
+  box-shadow: 5px 5px 2px grey;
 }
 
 #img-pdf{
@@ -64,7 +70,14 @@ $default-font-size: 20px;
 }
 
 .img-logo{
-  width: 75px;
-  height: 75px;
+  width: auto;
+  height: auto;
+  max-height: 75px;
+  max-width: 75px;
   box-shadow: 10px 10px 5px grey;
+  margin-bottom: 8px;
+}
+
+.clear-ele{
+  clear: both;
 }

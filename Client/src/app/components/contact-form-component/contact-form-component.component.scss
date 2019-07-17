@@ -1,9 +1,21 @@
-.container-contact{
+.container-contact-lrg{
   text-align: center;
   background-color: #3f729b;
   color: #fff;
-  width: 80%;
-  padding-top: 8px;
+  width: auto;
+  max-width: 80%;
+  padding-top: 2vh;
+  margin: auto;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.container-contact-sm{
+  text-align: center;
+  background-color: #3f729b;
+  color: #fff;
+  width: auto;
+  max-width: 90%;
+  padding-top: 2vh;
   margin: auto;
   box-shadow: 10px 10px 5px grey;
 }
