@@ -1,57 +1,64 @@
 $default-padding: 18px;
 $default-font-size: 20px;
 
-.p-section{
+.p-section {
   font-size: $default-font-size;
 }
 
-.container-projects{
+.container-projects {
   margin-top: 3%;
   padding: $default-padding;
 }
 
-#table-pages{
+#table-pages {
   width: 100%;
 }
-#table-pages td{
-  width: 50%;
+
+.td-img{
+  vertical-align: top;
 }
 
-.div-page{
+.div-page {
   margin-bottom: 24px;
-  padding: $default-padding;
   display: flex;
   align-items: center;
+  padding: 8px;
 }
 
-.p-github{
+.p-github {
   padding-left: 32px;
-  font-size: 32px;
-}
-
-.p-title{
   font-size: 28px;
-  width: 30%;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 400px;
+  align-content: left;
 }
 
-.img-logo{
+.p-title {
+  font-size: 28px;
+  width: auto;
+  min-width: 120px;
+  margin: 0;
+}
+
+.img-logo {
   width: 80px;
   height: 80px;
   margin-right: 24px;
   background-color: white;
 }
 
-.shadow-anim{
+.shadow-anim {
   box-shadow: 3px 3px 1px grey;
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.shadow-anim:hover{
+.shadow-anim:hover {
   box-shadow: 10px 10px 5px grey;
 }
 
-.p-desc{
+.p-desc {
   font-size: $default-font-size;
   padding-right: 15px;
-  padding-left: 15%;
+  padding-left: 5%;
 }
