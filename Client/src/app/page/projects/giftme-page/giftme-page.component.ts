@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-giftme-page',
@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./giftme-page.component.scss']
 })
 export class GiftmePageComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
