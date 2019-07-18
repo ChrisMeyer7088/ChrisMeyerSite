@@ -1,19 +1,20 @@
 $default-padding: 18px;
 $default-font-size: 20px;
 
-#container-content{
+.container-content{
   padding-left: $default-padding;
 }
 
 .p-section{
   font-size: $default-font-size;
   padding-left: $default-padding;
-  padding-right: 48px;
+  padding-right: 24px;
 }
 
 .container-section, .container-end{
   margin-top: 40px;
   clear: both;
+  padding-left: $default-padding;
 }
 
 .container-end{
@@ -34,15 +35,24 @@ $default-font-size: 20px;
   margin-bottom: 3%;
 }
 
+.img-gif-sm{
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  margin-bottom: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .ul-frameworks{
   font-size: $default-font-size;
-  padding-left: $default-padding;
   list-style: inside;
 }
 
 .ul-frameworks li{
   padding-left: $default-padding;
   padding-top: 8px;
+  padding-right: $default-padding;
 }
 
 .p-github{
