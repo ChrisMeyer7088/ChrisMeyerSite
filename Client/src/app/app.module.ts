@@ -18,6 +18,9 @@ import { GiftmePageComponent } from './page/projects/giftme-page/giftme-page.com
 import { PointmapPageComponent } from './page/projects/pointmap-page/pointmap-page.component';
 import { CmSitePageComponent } from './page/projects/cm-site-page/cm-site-page.component';
 import { ProjectHomePageComponent } from './page/projects/project-home-page/project-home-page.component';
+import { FunPageComponent } from './page/fun-page/fun-page.component';
+import { DrawingGame } from './components/drawing-component/drawing.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { ProjectHomePageComponent } from './page/projects/project-home-page/proj
     GiftmePageComponent,
     PointmapPageComponent,
     CmSitePageComponent,
-    ProjectHomePageComponent
+    ProjectHomePageComponent,
+    FunPageComponent,
+    DrawingGame
   ],
   imports: [
     BrowserModule,

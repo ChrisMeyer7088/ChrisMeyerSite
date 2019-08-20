@@ -1,4 +1,65 @@
-#myCanvas{
+$color-size: 14px;
+#container-canvas {
   width: 300px;
-  height: 300px;
+  text-align: center;
+  margin: 16px;
+}
+
+#img-easel{
+  width: 450px;
+  height: 450px;
+}
+
+#myCanvas {
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+}
+
+#myCanvas:hover {
+  cursor: pointer;
+}
+
+.button-animal {
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  margin: 8px;
+  padding: 0 8px;
+}
+
+.button-canvas-clear {
+  background-color:white;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.container-colors {
+  padding-top: 8px;
+}
+
+.button-canvas-color {
+  padding: $color-size;
+  margin-right: $color-size;
+  border-radius: 60%;
+  border: none;
+}
+
+#color-black {
+  background-color: black;
+}
+
+#color-blue {
+  background-color: blue;
+}
+
+#color-red {
+  background-color: red;
+}
+
+#color-green {
+  background-color: green;
+}
+
+#color-white {
+  background-color: white;
 }

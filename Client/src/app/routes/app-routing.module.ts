@@ -8,9 +8,10 @@ import { GiftmePageComponent } from '../page/projects/giftme-page/giftme-page.co
 import { PointmapPageComponent } from '../page/projects/pointmap-page/pointmap-page.component';
 import { CmSitePageComponent } from '../page/projects/cm-site-page/cm-site-page.component';
 import { ProjectHomePageComponent } from '../page/projects/project-home-page/project-home-page.component';
+import { FunPageComponent } from '../page/fun-page/fun-page.component';
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: '/home'},
+  {path: '', pathMatch: 'full', redirectTo: '/about'},
   {path: 'home', component: HomePageComponent},
   {path: 'about', component: AboutPageComponent},
   {path: 'experience', component: WorkExperincePageComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
     {path: 'giftme', component: GiftmePageComponent},
     {path: 'cmsite', component: CmSitePageComponent}
   ]},
-  {path: '**', redirectTo: 'home'}
+  {path: 'games', component: FunPageComponent},
+  {path: '**', redirectTo: 'about'}
 ];
 
 @NgModule({
