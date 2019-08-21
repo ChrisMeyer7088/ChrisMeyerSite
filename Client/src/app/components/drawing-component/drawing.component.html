@@ -1,14 +1,32 @@
 <div id="container-canvas">
-  <!-- <img id="img-easel" src="../../../assets/static/images/gamingPageImages/easelImage.png"> -->
-  <canvas width=300 height=300 id="myCanvas"></canvas>
-  <button class="button-animal" (click)="addChickenToCanvas()">Give me a Chicken!</button>
-  <button class="button-animal" (click)="addCowToCanvas()">Give me a Cow!</button>
-  <button (click)="clearDrawing()" class="button-canvas-clear">Clear</button>
+  <div id="container-easel">
+    <img id="img-easel" src="../../../assets/static/images/gamingPageImages/easelImage.png">
+    <canvas id="myCanvas"></canvas>
+  </div>
+  <div>
+    <button class="button-animal" (click)="addChickenToCanvas()">Give me a Chicken!</button>
+    <button class="button-animal" (click)="addCowToCanvas()">Give me a Cow!</button>
+  </div>
+  <div>
+    <button (click)="clearDrawing()" class="button-canvas-clear">Clear</button>
+  </div>
   <div class="container-colors">
     <button id="color-black" (click)="changeToBlack()" class="button-canvas-color"></button>
     <button id="color-green" (click)="changeToGreen()" class="button-canvas-color"></button>
     <button id="color-blue" (click)="changeToBlue()" class="button-canvas-color"></button>
     <button id="color-red" (click)="changeToRed()" class="button-canvas-color"></button>
+    <button id="color-yellow" (click)="changeToYellow()" class="button-canvas-color"></button>
     <button id="color-white" (click)="changeToWhite()" class="button-canvas-color"></button>
   </div>
+  <div class="container-sizes">
+      <button id="size-small" (click)="changeSizeToSmall()" class="button-canvas-size">
+        <img class="img-size" src="../../../assets/static/images/gamingPageImages/smallDot.png">
+      </button>
+      <button id="size-medium" (click)="changeSizeToMedium()" class="button-canvas-size">
+        <img class="img-size" src="../../../assets/static/images/gamingPageImages/mediumDot.png">
+      </button>
+      <button id="size-large" (click)="changeSizeToLarge()" class="button-canvas-size">
+        <img class="img-size" src="../../../assets/static/images/gamingPageImages/largeDot.png">
+      </button>
+    </div>
 </div>

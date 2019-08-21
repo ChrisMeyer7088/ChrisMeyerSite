@@ -1,18 +1,39 @@
 $color-size: 14px;
+
 #container-canvas {
-  width: 300px;
   text-align: center;
   margin: 16px;
 }
 
-#img-easel{
-  width: 450px;
-  height: 450px;
+#container-easel {
+  position: relative;
+  margin: auto;
+}
+
+.img-easel-sm {
+  width: 300px;
+  height: 350px
+}
+
+.img-easel-lg {
+  width: 550px;
+  height: 590px;
 }
 
 #myCanvas {
   background-color: white;
-  box-shadow: 3px 3px 5px grey;
+  position: absolute;
+  z-index: 1;
+}
+
+.canvas-lg {
+  top: 12%;
+  left: 23.6%;
+}
+
+.canvas-sm {
+  top: 12%;
+  left: 23.3%;
 }
 
 #myCanvas:hover {
@@ -37,11 +58,15 @@ $color-size: 14px;
   padding-top: 8px;
 }
 
-.button-canvas-color {
-  padding: $color-size;
+.button-canvas-size, .button-canvas-color {
   margin-right: $color-size;
+  margin-top: $color-size;
   border-radius: 60%;
   border: none;
+}
+
+.button-canvas-color {
+  padding: $color-size;
 }
 
 #color-black {
@@ -60,6 +85,27 @@ $color-size: 14px;
   background-color: green;
 }
 
+#color-yellow {
+  background-color: yellow;
+}
+
 #color-white {
   background-color: white;
+}
+
+#size-small {
+  background-color: white;
+}
+
+#size-medium {
+  background-color: white;
+}
+
+#size-large {
+  background-color: white;
+}
+
+.img-size{
+  width: 30px;
+  height: 30px;
 }
